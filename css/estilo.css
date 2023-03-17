@@ -92,6 +92,7 @@ section h2{
     margin-left: -30px;
     padding: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
     border-radius: 5px;
     color: var(--cor05);
     font-family: 'Kalam', cursive;
@@ -117,10 +118,23 @@ strong{
     font-weight: 600;
     font-family: 'Nanum Gothic Coding', monospace;
 }
+ul {
+    list-style-type: '☑️\00a0\00a0';
+    list-style-position: inside;
+    background-color: #202422;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    
+}
+ul > li{
+    font-family: 'Nanum Gothic Coding', monospace;
+}
 section.imagem{
     background-color: #4D4D4D;
     height: 50vh;
 }
+
 section#imagem01{
     background-image: url('../imagem/codigoSequencial.png');    
     background-attachment: fixed;
