@@ -23,6 +23,7 @@ font-family: 'Sriracha', cursive;*/
 }
 body{
     text-align: justify;
+    
 }
 
 :root{
@@ -137,6 +138,18 @@ section#imagem03{
     background-attachment: fixed;
     background-size: cover;   
     background-position: top center;
+}
+footer{
+    background-color: black;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+}
+footer > p {
+    color: var(--cor05);
+}
+footer > p > a {
+    color: var(--cor05);
 }
 
 
