@@ -38,7 +38,7 @@ html, body{
 }
 nav{
     background-image: linear-gradient(90deg, #000000 0%,  #4D4545 50%, #000000 100% );
-    padding: 10px;
+    
     text-align: right;
 }
 nav >ul > a{
@@ -118,12 +118,12 @@ strong{
     font-weight: 600;
     font-family: 'Nanum Gothic Coding', monospace;
 }
-ul {
+ul#lista{
     list-style-type: '☑️\00a0\00a0';
     list-style-position: inside;
-    background-color: #202422;
+    
     padding: 10px;
-    color: #fff;
+    color: #000;
     border-radius: 5px;
     font-size: 2vw;
     
