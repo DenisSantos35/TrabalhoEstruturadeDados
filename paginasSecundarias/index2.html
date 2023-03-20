@@ -20,37 +20,69 @@
         <p>Professor: <a href="https://github.com/XandyGomes" target="_blank" rel="external">Alexandre Gomes</a>.</p>
     </header>
     <section>
-        <h2 data-anime="left">
+        <h2>
             LÓGICA BUSCA SEQUENCIAL
         </h2>
         
-        <p data-anime="left">
+        <p>
             ALGORITMO DE BUSCA SEQUENCIAL
         </p>
-        <p data-anime="left">
+        <p>
             Percorre o vetor, verificando se cada um dos elementos corresponde
             ao valor de busca. Ao encontrar uma correspondência, retorna a posição
             onde o valor de busca está no vetor.
         </p>
-        <p data-anime="left">
+        <p>
             Caso o valor de busca não exista no vetor, retorna o valor convencional
             -1.
         </p>        
             <img src="/imagem/codigoSequencial-700.png" alt="imagem codigoSequencial-700" data-anime="bottom">
     </section>
-    <section data-anime="left">
+    <section>
         <h2 data-anime="left">
             LÓGICA SEQUENCIAL COM OBJETO
         </h2>
+        <P data-anime="left">
+            Algoritimo de busca sequencial em um vetor de objetos.
+        </P>
+        <p data-anime="left">
+            Quando um algoritimo de busca precisa atuar sobre um vetor de objetos, a comparacão não deve ser feita dentro da função que implementa o algoritmo. Em vez disso, recembemos uma outra função (externa) como parametro que resolverá a comparação.
+        </p>
+        <p data-anime="left">
+            Essa função externa será chamada passando o objeto atual do vetor e esperará um retorno true caso a função externa determine que o objeto atual contém o valor de busca, ou false, caso contrário.
+        </p>
+        <img src="../imagem/codigoSequenicailObj-700.png" alt="codigoSequencial-700" data-anime="bottom">
     </section>
-    <section data-anime="left">
+    <section>
         <h2 data-anime="left">BUSCA BINÁRIA</h2>
+        <p data-anime="left">
+            Requer um conjunto de dados <strong>ORDENADOS</strong>.
+         </p>
+         <p data-anime="left">
+             Atua dividindo o vetor sucessivamente em metades aproximadas, até que o valor de busca seja localizado, ou que o ponteiro de fim acabe antes do ponteiro de início.
+         </p>
+         <p data-anime="left">
+             Essa ultima situação indica que o vlaor de busca não existe no conjunto.
+         </p>
+            
+        <img src="../imagem/codigoBuscaBinaria.png" alt="codigoBuscaBinaria" data-anime="bottom">
     </section>
-    <section data-anime="left">
+    <section >
         <h2>BINÁRIA COM OBJETO</h2>
+        <P data-anime="left">
+            Algoritmo de busca binária em vetor de objetos.
+        </P>
+        <p data-anime="left">
+            Para usar a busca binária em um <strong>VETOR DE OBJETOS</strong>, precisamos transferi a comparação para uma função externa que retorne um dos três valores:  
+        </p>
+        <img src="../imagem/codBinaria.png" alt="codBinaria" data-anime="bottom">
     </section >
-    <section data-anime="left">
+    <section>
         <h2 data-anime="left">ORDENAÇÃ BUBBLE SORT</h2>
+
+        <p data-anime="left">O bubble sort, ou ordenação por flutuação é um algoritimo de ordençaõ dos mais simples. A idéia é percorreto o vetor diversas vezes, e a cada passagem fazer flutuar para o topo o maior elemento da sequência.</p>
+
+        <img src="/imagem/codOrdenacao.png" alt="codOrdenacao" data-anime="bottom">
     </section>
     <section data-anime="left">
 

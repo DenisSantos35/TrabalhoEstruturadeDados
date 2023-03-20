@@ -35,3 +35,5 @@ if(target.length){ // se nao tiver elemento nao realiza
         animeScroll();
     }, 200));
 }
+
+/*video de https://www.youtube.com/watch?v=pKTOT63X9XQ*/
