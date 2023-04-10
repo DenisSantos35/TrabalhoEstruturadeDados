@@ -154,6 +154,18 @@ section#imagem03{
     background-size: cover;   
     background-position: top center;
 }
+section#imagem04{
+    background-image: url('../imagem/selectionSort.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+section#imagem05{
+    background-image: url('../imagem/margeSort-menor.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
 footer{
     background-color: black;
     margin-top: 10px;
